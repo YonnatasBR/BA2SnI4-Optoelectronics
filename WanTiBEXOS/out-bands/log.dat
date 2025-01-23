@@ -1,0 +1,114 @@
+NTHREADS= 32
+SYSDIM= 3D
+DFT= W
+ 
+ INPUT/OUTPUT FILES
+ 
+OUTPUT= ./out-bands/                                                          
+CALC_DATA= ./out-bands/                                                          
+PARAMS_FILE= tb_hr.dat                                                             
+KPATH_FILE= kpoints.dat                                                           
+KPATH_BSE= kpoints-bse.dat                                                       
+ORB_W= unknown                                                               
+EM_FILE= unknown                                                               
+ 
+ CONTROL
+ 
+BANDS= T
+DOS= F
+BSE= F
+BSE_BND= F
+DIEL= F
+OPT_BZ= F
+SPEC= F
+BERRY_BZ= F
+BERRY= F
+PP_ONLY= F
+BSE_WF= F
+TMCOEF= F
+DTDIAG= F
+CPOL= F
+PCE= F
+EM_TENSOR= F
+SPIN_TXT= F
+ 
+ K-MESH
+ 
+KMESH_GEN= MKH            
+NGX= 16
+NGY= 16
+NGZ= 9
+SHIFT_1=   0.0000
+SHIFT_2=   0.0000
+SHIFT_3=   0.0000
+ 
+ DOS
+ 
+NEDOS= 6001
+SIGMA=   0.0800
+ 
+ BSE/OPTICAL PROPERTIES
+ 
+BSE_ALGO= cheev       
+NBANDSC= 8
+NBANDSV= 22
+ENSPECI=   0.0000
+ENSPECF=   4.0000
+NESPEC= 6001
+KTOL=   0.0010
+EXC_WF_I= 1
+EXC_WF_F= 2
+COULOMB_POT= V3D  
+CSHIFT=   0.0500
+RNMD= T
+ 
+ PARAMETERS FOR COULOMB POTENTIALS
+ 
+EDIEL_Z=   1.0000
+W_COUL=   0.0000
+LC=   1.0000
+R_0=   1.0000
+EDIEL_T=   1.0000
+EDIEL_B=   1.0000
+EDIEL=   1.0000
+ 
+ PARAMETERS FOR BSE with Temperature Effects
+ 
+TA= FA
+ST=   0.0000
+PHAVG=   0.0000
+TEMP=   0.0000
+ 
+ PARAMETERS FOR PCE
+ 
+SES= AM15G 
+CTEMP= 298.1500
+THMAX=      0.5000E-05
+EG=   0.0000
+EGD=   0.0000
+EGS=   0.0000
+EBGS=   0.0000
+ 
+ Effective Mass
+ 
+dK=   0.0010
+ 
+ OTHERS
+ 
+FERMI_SHIFT=   0.0000
+NOCPF= 0
+ 
+ EXTERNAL HAMILTONIANS
+ 
+SPIN_EXC=   0.0000
+MAG_X=   0.0000
+MAG_Y=   0.0000
+MAG_Z=   1.0000
+ 
+ 
+ Begin  day          29            8 hours          53 min          16 seg
+ 
+ Band Structure finished
+ 
+ End   day          29            8 hours          55 min           9 seg
+ 
