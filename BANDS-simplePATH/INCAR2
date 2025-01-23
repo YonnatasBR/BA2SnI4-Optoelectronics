@@ -1,0 +1,72 @@
+SYSTEM =  Sn2 H48 C16 I8 N4
+
+# ======================================================================= #
+#                     Startparameter for this run:                        #
+# ======================================================================= #
+
+ADDGRID = .TRUE.         ! additional support grid is used
+NWRITE =       1         ! write-flag & timer
+PREC  =   NORMAL         ! normal or accurate (medium, high low for compatibility)
+ICHARG =     11         ! resd charge density
+ISPIN  =       2         ! 1-no spin polarized calculation; 2- spin polarized
+LSORBIT = .TRUE.         ! spin-orbit coupling
+SAXIS  =   0 0 1         ! global spin-quantization axis for spin-orbit calculations
+LASPH  =  .TRUE.         ! aspherical Exc in radial PAW
+
+
+# ======================================================================= #
+#                        Electronic Relaxation                            #
+# ======================================================================= #
+ 
+ENCUT  =   500.0         ! eV  36.75 Ry    6.06 a.u.  14.92 15.85 28.232pi/ulx,y,z
+NELM   =    1000         ! default value for SCF steps
+NELMIN =       6         ! minimum SCF steps
+NELMDL =     -12         ! starting non-SCF steps (ELM steps)
+EDIFF  =   1e-06         ! stopping-criterion for ELM
+LREAL  =    AUTO         ! real-space projection, fully automatic optimization
+AMIX   =    0.10         ! linear density mixture: rho_mix = (1-AMIX)*rho_in + AMIX*rho_out
+BMIX   =  0.0001         ! direct mixture (BMIX = 0 could crash!)
+
+# ======================================================================= #
+#                           Ionic relaxation                              #
+# ======================================================================= #
+
+ALGO   =     ALL         ! automatic selection of algorithm
+EDIFFG =   -0.01         ! stopping-criterion for IOM
+NSW    =       0         ! number of steps for IOM
+IBRION =       2         ! ionic relax: 0-MD 1-quasi-New 2-CG
+ISIF   =       3         ! stress and relaxation
+ISYM   =       0         ! 0-nonsym 1-usesym 2-fastsym
+POTIM  =     0.5         ! time-step for ionic-motion
+
+# ======================================================================= #
+#                         DOS related values:                             #
+# ======================================================================= #
+
+ISMEAR =       0         ! broadening in eV -4-tet -1-fermi 0-gaus
+SIGMA  =    0.01  
+NEDOS  =    6001         ! number of dos
+
+# ======================================================================= #
+#                             Write flags                                 #
+# ======================================================================= #
+ 
+LWAVE  =   False         ! write WAVECAR
+LCHARG =   False         ! write CHGCAR
+LORBIT =      10         ! write DOSCAR and PROCAR
+
+# ======================================================================= #
+#                  Exchange correlation treatment:                        #
+# ======================================================================= #
+
+GGA    =      PE         ! GGA type
+GGA_COMPAT = .TRUE.     ! if it's .FALSE.: restores the full lattice symmetry for gradient-corrected functionals.
+
+# ======================================================================= #
+#                                 OTHER                                   #
+# ======================================================================= #
+
+IVDW   =      11         ! DFTD3
+LPLANE =  .TRUE.         ! switches on the plane-wise data distribution in real space
+NCORE =       4          ! number of cores
+NBANDS =     512         ! number of bands
