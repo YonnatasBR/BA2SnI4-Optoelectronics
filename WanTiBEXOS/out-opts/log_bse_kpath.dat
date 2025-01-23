@@ -1,0 +1,64 @@
+ threads:          56
+ 
+ grid:          11          11           6
+ 
+ ktol-coulomb:  1.000000047497451E-003
+ 
+ kmesh shift:  0.000000000000000E+000  0.000000000000000E+000
+  0.000000000000000E+000
+ 
+ conduction bands, nc:           2   valence bands, nv:           6
+ 
+ Coulomb Potential:V3D  
+ 
+ BSE_ALGO:cheev       
+ 
+ number of kpoints in the path:             40
+ 
+ 
+ begin  day          30           21 hours          11 min           5 seg
+ 
+ quantum numbers for exciton basis set finished
+ progress:           1 /          40
+ progress:           2 /          40
+ progress:           3 /          40
+ progress:           4 /          40
+ progress:           5 /          40
+ progress:           6 /          40
+ progress:           7 /          40
+ progress:           8 /          40
+ progress:           9 /          40
+ progress:          10 /          40
+ progress:          11 /          40
+ progress:          12 /          40
+ progress:          13 /          40
+ progress:          14 /          40
+ progress:          15 /          40
+ progress:          16 /          40
+ progress:          17 /          40
+ progress:          18 /          40
+ progress:          19 /          40
+ progress:          20 /          40
+ progress:          21 /          40
+ progress:          22 /          40
+ progress:          23 /          40
+ progress:          24 /          40
+ progress:          25 /          40
+ progress:          26 /          40
+ progress:          27 /          40
+ progress:          28 /          40
+ progress:          29 /          40
+ progress:          30 /          40
+ progress:          31 /          40
+ progress:          32 /          40
+ progress:          33 /          40
+ progress:          34 /          40
+ progress:          35 /          40
+ progress:          36 /          40
+ progress:          37 /          40
+ progress:          38 /          40
+ progress:          39 /          40
+ progress:          40 /          40
+ 
+ end   day          30           23 hours           0 min           8 seg
+ 
