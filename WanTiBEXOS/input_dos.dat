@@ -1,0 +1,40 @@
+NTHREADS= 56
+SYSDIM= "3D"
+
+BSE_ALGO= cheev
+
+DFT= "W"
+
+PARAMS_FILE= "tb_hr.dat"
+KPATH_FILE= "kpoints.dat"
+KPATH_BSE= "kpoints-bse.dat"
+
+OUTPUT= "./out-dos/"
+CALC_DATA= "./out-dos/"
+
+BANDS= F
+DOS= T
+BSE= F       
+BSE_BND= F   
+DTDIAG= F
+CPOL= F
+SPEC= F
+TMCOEF= F
+
+COULOMB_POT= "V3D"
+
+
+MESH_TYPE= "RK3D"
+RK= 130.0
+
+NBANDSC= 8
+NBANDSV= 22
+
+ENSPECI= 0.0
+ENSPECF= 4.0
+
+NESPEC= 6001
+CSHIFT= 0.05
+NEDOS= 6001
+SIGMA= 0.08
+
