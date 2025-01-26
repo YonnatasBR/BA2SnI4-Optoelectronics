@@ -1,4 +1,4 @@
-# BA2SnI4 Data Repository for reproducibility purposes
+# BA$_2$SnI$_4$ Data Repository for reproducibility purposes
 This repository possesses input/output data suitable to the study titled "TO BE DEFINED."
 
 # Manuscript Information
