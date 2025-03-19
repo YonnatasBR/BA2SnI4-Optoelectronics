@@ -17,4 +17,6 @@ This README information about the stored data and folders:
 
 4.***vasp2w90&Hamiltonian***: two-step calculation including (1) VASP-PBE+D3+SOC-1/2 to Wannier90 pré-wannierization and (2) Wannier90 wannierization to generate the tight-binding-based maximally-localised wannier functions Hamiltonian (MLWF-TB Hamiltonian);
 
-5.***WanTiBEXOS***: mult-step calculation to investigate optoelectronic properties in the scope of the independent particle approximation (IPA) and Beth-Salpeter equations (BSE). we divided it between bandgap, dos, optical properties, excitonic properties, and power conversion efficiency (PCE) calculations.
+5.***WanTiBEXOS***: mult-step calculation to investigate optoelectronic properties in the scope of the independent particle approximation (IPA) and Beth-Salpeter equations (BSE). We divided it between bandgap, dos, optical properties, excitonic properties, and power conversion efficiency (PCE) calculations.
+
+6.***scripts***: a couple of scripts for computing optical and excitonic properties, such as dielectric function, absorption coefficient, refractive index, reflectivity coefficient, and excitonic band structure. In addition, we present a script to show the calculated PCE throughout SLME formalism as a function of the perovskite shickness.
