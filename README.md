@@ -19,4 +19,4 @@ This README information about the stored data and folders:
 
 5.***WanTiBEXOS***: mult-step calculation to investigate optoelectronic properties in the scope of the independent particle approximation (IPA) and Beth-Salpeter equations (BSE). We divided it between bandgap, dos, optical properties, excitonic properties, and power conversion efficiency (PCE) calculations.
 
-6.***scripts***: a couple of scripts for computing optical and excitonic properties, such as dielectric function, absorption coefficient, refractive index, reflectivity coefficient, and excitonic band structure. In addition, we present a script to show the calculated PCE throughout SLME formalism as a function of the perovskite shickness.
+6.***scripts***: a couple of scripts for computing optical and excitonic properties, such as dielectric function, absorption coefficient, refractive index, reflectivity coefficient, and excitonic band structure. In addition, we present a script to show the calculated PCE throughout SLME formalism as a function of the perovskite thickness.
