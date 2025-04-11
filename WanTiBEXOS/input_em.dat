@@ -1,0 +1,49 @@
+NTHREADS= 1
+SYSDIM= "3D"
+
+BSE_ALGO= cheev
+
+DFT= "W"
+
+PARAMS_FILE= "tb_hr.dat"
+KPATH_FILE= "kpoints.dat"
+KPATH_BSE= "kpoints-bse.dat"
+EM_FILE= "cbm_vbm-kmesh.dat"
+
+OUTPUT= "./"
+CALC_DATA= "./"
+
+BANDS= F
+DOS= F
+BSE= F
+BSE_BND= F
+DIEL= F
+OPT_BZ= F
+SPEC= F
+BERRY_BZ= F
+BERRY= F
+PP_ONLY= F
+BSE_WF= F
+TMCOEF= F
+DTDIAG= F
+CPOL= F
+PCE= F
+EM_TENSOR= T
+SPIN_TXT= F
+
+COULOMB_POT= "V3D"
+
+
+MESH_TYPE= "RK3D"
+RK= 130.0
+
+NBANDSC= 2
+NBANDSV= 6
+
+ENSPECI= 0.0
+ENSPECF= 4.0
+
+NESPEC= 6001
+CSHIFT= 0.05
+NEDOS= 6001
+SIGMA= 0.08
